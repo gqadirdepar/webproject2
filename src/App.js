@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Dinner from "./dinner"
 function App() {
   return (
     <div className="App">
-      <h1>This is my first File </h1>
+      <Dinner dish="biryani" sweet="kheer" />
     </div>
   );
 }

@@ -1,5 +1,12 @@
 import React from "react";
 
-function Dinner(){
-    return "This is my child component"
+function Dinner(props){
+    return (
+        
+    <h1> Today I am serving {props.dish} </h1> ;
+    <h1> Today I am serving {props.sweet} </h1>;
+
+    );
+
 }
+export default Dinner
